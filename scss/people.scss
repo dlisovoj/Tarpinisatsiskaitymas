@@ -1,0 +1,54 @@
+// img {
+//   width: 100px;
+// }
+//
+// .middle {
+//   height: 350px;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   text-align: center;
+//   font-family: Lato;
+//   background: #f0f0f0;
+//   p {
+//     color: #707070;
+//   }
+//   .fres {
+//     margin-top: 15px;
+//   }
+// }
+
+.heading {
+  font-family: Lato;
+  text-align: center;
+  margin-top: 1200px;
+  padding-top: 100px;
+  background: #f0f0f0;
+  font-size: 20px;
+}
+
+.people {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  width: 100%;
+  font-family: Lato;
+  background: #f0f0f0;
+  img {
+    border-radius: 100%;
+    width: 150px;
+  }
+  h1 {
+    margin-top: 10px;
+  }
+  p {
+    margin-top: 10px;
+    color: #707070;
+  }
+  .rev1 {
+    margin-top: -15px;
+  }
+}

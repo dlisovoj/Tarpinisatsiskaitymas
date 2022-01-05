@@ -1,0 +1,67 @@
+@mixin textbox {
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 20%;
+}
+
+@mixin button {
+  margin-left: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Lato;
+  color: white;
+  background: #007bff;
+  border-radius: 4px;
+  border: none;
+  margin-top: 19px;
+  text-align: center;
+}
+
+.containermail {
+  height: 350px;
+  width: 100%;
+  .mail {
+    display: flex;
+    align-items: center;
+    background: url("../images/bg-masthead.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    color: white;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 35px;
+    background-position: center;
+    p {
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: -50px;
+      text-align: center;
+    }
+  }
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -120px;
+     button {
+       @include button;
+     }
+       .text {
+      @include textbox;
+      }
+  }
+}
+
+
+  // .grid {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   grid-column-gap: 2%;
+  //   grid-template-rows: 400px;
+  //   grid-row-gap: 20px;
+  // }

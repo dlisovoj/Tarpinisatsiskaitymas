@@ -1,0 +1,66 @@
+.info {
+  font-family: Lato;
+  p {
+    color: #707070;
+  }
+}
+
+  .img1 {
+    background: url("../images/bg-showcase-1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+    height: 400px;
+  }
+
+  .img2 {
+    background: url("../images/bg-showcase-2.jpg");
+    background-size: cover;
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 400px;
+  }
+
+  .img3 {
+    background: url("../images/bg-showcase-3.jpg");
+    background-size: cover;
+    float: right;
+    width: 50%;
+    height: 400px;
+  }
+
+  .fullres {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 10%;
+    width: 50%;
+    height: 400px;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+  }
+  .updatedboot {
+    float: left;
+    padding: 10%;
+    width: 50%;
+    height: 400px;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+  }
+  .easytouse {
+    float: left;
+    padding: 10%;
+    width: 50%;
+    height: 400px;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+}
